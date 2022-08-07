@@ -25,10 +25,11 @@ body {
  
 .hero-bg-1 {
     height: 650px;
-    background-image: url("/img/hero-bg.svg");
+    background-image: url("../img/hero-bg.svg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .zuri-logo {
@@ -188,17 +189,6 @@ h3.z-title {
     z-index: -1;
     display: none;
 } */
-
-.box-curves {
-    float: right;
-    width: 40%;
-    margin-right: -49px;
-    margin-top: -58px;
-}
-
-.section-4 .card .card-body {
-    padding: 58px 48px 93px 50px;
-}
 
 .offer-card-info p {
     margin-top: 0;
@@ -491,25 +481,61 @@ h3.z-title {
 /* section-2 about styling ends here */
 
 /* section-3 styling */
-.here-at {
-    font-family: "Graphik Medium";
+.why-zuri {
+    font-size: 24px;
+    color: rgb(231, 51, 43);
+    font-weight: 400;
 }
 
+.here-at {
+    font-family: "Graphik Medium";
+    font-size: 40px;
+    color: rgb(27, 26, 32);
+    font-weight: 700;
+}
+
+.col-5-star {
+    mix-blend-mode: darken!important;
+    width: 36%;
+}
 /* section-3 styling ends here */
 
 /* section-4 cards styling */
-.cards-bg {
+.sect-4-bg {
     background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0))!important;
+}
+
+.box-curves {
+    float: right;
+    width: 40%;
+    margin-right: -49px;
+    margin-top: -59px;
+}
+
+.section-4 .card .card-body {
+    padding: 58px 48px 93px 50px;
+}
+
+.card-1 {
+    background-color: #e7332b;
+}
+
+.sect4-box {
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%)
 }
 
 .card-num {
     font-family: "Graphik Medium";
     font-size: 60px;
+    font-weight: 700;
 }
 
 .s4-text-big {
     font-family: "Graphik Medium";
     font-size: 36px;
+    font-weight: 500;
+    padding: 16px 0 36px 0;
+    line-height: 44px;
 }
 
 .s4-text-small {
@@ -535,6 +561,7 @@ h3.z-title {
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
 }
+
 .we-give {
     width: 100%;
     font-size: 18px;
@@ -577,7 +604,6 @@ h3.z-title {
 } */
 
 .sect7-wire {
-    margin-left: 15%;
     margin-top: 50px;
 }
 
@@ -835,6 +861,13 @@ h3.z-title {
     }
     .about-info, .about-info2 {
         text-align: center;
+    }
+} */
+
+/* SECTION-3 WHY-ZURI MEDIA QUERIES */
+/* @media screen and (max-width: 768px){
+    .here-at {
+        width: 100;
     }
 } */
 

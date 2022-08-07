@@ -24,12 +24,11 @@ body {
 }
  
 .hero-bg-1 {
-    height: 650px;
+    height: 700px;
     background-image: url("../img/hero-bg.svg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .zuri-logo {
@@ -386,7 +385,6 @@ h3.z-title {
     padding-bottom: 40px;
     font-size: 18px;
     font-weight: 400;
-    margin: 0 109px;
     word-spacing: 1px;
     letter-spacing: 1px;
 }
@@ -518,12 +516,24 @@ h3.z-title {
 
 .card-1 {
     background-color: #e7332b;
+    transition: transform .3s ease;
 }
 
-.sect4-box {
-    box-shadow: 0 11px 22px rgb(231 51 43 / 10%)
+.sect4-box .shadow {
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%) !important;
+    transition: -webkit-transform .3s ease!important;
+    transition: transform .3s ease!important;
+    transition: transform .3s ease,-webkit-transform .3s ease!important;
 }
 
+.section-4 .card:hover {
+    -webkit-transform: translateY(-15px)!important;
+    transform: translateY(-15px)!important;
+}
+
+.s4-box2 {
+    animation: transition 0.4s ease-in-out; 
+}
 .card-num {
     font-family: "Graphik Medium";
     font-size: 60px;
@@ -702,13 +712,9 @@ h3.z-title {
 
 /* LANDING PAGE RESPONSIVE STARTS HERE */
 @media screen and (max-width: 1024px){
-    /* .nav-link {
-    font-size: 18px;
-    font-weight: 400;
-    padding: 8px;
-    margin-right: 10px;
-    color: rgb(88, 87, 87);   
-    } */
+    .navbar-nav {
+        margin-left: 50px;
+    } 
 }
 
 @media screen and (max-width: 768px){
@@ -745,7 +751,6 @@ h3.z-title {
     .new-btn {
         background-color: #E7332B;
         color: #fff;
-        /* margin-right: 37px; */
     }
     .footer-container {
         display: flex;
@@ -773,6 +778,18 @@ h3.z-title {
 /*  LANDING PAGE RESPONSIVE ENDS HERE */
 
 /* STYLING FOR TRAINING PAGE STARTS HERE */
+@media screen and (max-width: 1200px){
+    .s-wire1 {
+     width: 19%;
+    }
+    .maleface {
+        margin-left: -420px;
+    }
+    .about-info2, .read-more {
+        font-size: 17px;
+    }
+}
+
 @media screen and (max-width: 1056px) {
     .navbar-link {
         display: flex;
@@ -788,18 +805,30 @@ h3.z-title {
         padding: 10px;
         margin: -12px 0 0 -44px;
     }
+    .about-info {
+        font-size: 20px;
+        margin: 0;
+    }
+    .about-info2 {
+        font-size: 17px;
+        margin: 0;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 990px) {
     .navbar-link {
         display: none;
     }
     .training-nav-content {
         min-height: 64px;
-    }  
+    } 
+    .about-info {
+        font-size: 24px;
+        line-height: 28px;;
+    }     
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .training-logo {
         width: 180px;
     }  
@@ -811,6 +840,36 @@ h3.z-title {
     }
     .training-nav-content {
         margin: -10px 0 0 0;
+    }
+    .s-wire1 {
+        width: 47px;
+        display: block;
+        margin-left: -129px;
+       }
+    .basic-p {
+        font-size: 17px;
+        width: 100%;
+        letter-spacing: 0;
+        word-spacing: 2px;
+    }
+    .gain-k {
+        font-size: 28px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .sect2 {
+        margin: 0;
+    }
+    .about-info {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0px;
+    }      
+    .about-info2 {
+        font-size: 18px;
+        line-height: 31px;
+        letter-spacing: 0.22512px;
+        margin: 0px;
     }
 }
 
@@ -851,25 +910,6 @@ h3.z-title {
         font-size: 12px;
     }
 }
-
-/* SECTION-2 ABOUT MEDIA QUERIES */
-/* @media screen and (max-width: 768px){
-    .sect2 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .about-info, .about-info2 {
-        text-align: center;
-    }
-} */
-
-/* SECTION-3 WHY-ZURI MEDIA QUERIES */
-/* @media screen and (max-width: 768px){
-    .here-at {
-        width: 100;
-    }
-} */
 
 /* FAQ MEDIA QUERIES */
 @media screen and (max-width: 768px) {

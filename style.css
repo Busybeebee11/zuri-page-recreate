@@ -1,0 +1,858 @@
+@font-face {font-family: "Graphik Regular"; src: url("//db.onlinewebfonts.com/t/076550ba1f35c1eeb75f430fee2bb6a9.eot"); src: url("//db.onlinewebfonts.com/t/076550ba1f35c1eeb75f430fee2bb6a9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/076550ba1f35c1eeb75f430fee2bb6a9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/076550ba1f35c1eeb75f430fee2bb6a9.woff") format("woff"), url("//db.onlinewebfonts.com/t/076550ba1f35c1eeb75f430fee2bb6a9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/076550ba1f35c1eeb75f430fee2bb6a9.svg#Graphik Regular") format("svg"); }
+
+@font-face {font-family: "Graphik Medium"; src: url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.eot"); src: url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.woff") format("woff"), url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.svg#Graphik Medium") format("svg"); }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    /* border: 1px solid blue; */
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* LANDING PAGE STYLING STARTS HERE */
+.landing-container * {
+    font-family: Averta, sans-serif;
+}
+
+.landing-container {
+    width: 100%;
+}
+ 
+.hero-bg-1 {
+    height: 650px;
+    background-image: url("../img/hero-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.zuri-logo {
+    margin: auto;
+    display: flex;
+    padding-top: 65px;
+    margin-bottom: 65px;
+}
+
+.zuri-logo img {
+    margin: auto;
+}
+
+.home-intro {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 700px;  
+}
+
+.home-intro h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+.home-intro p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.home-intro a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.next-btn {
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-btn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    font-family: Averta;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.new-btn {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.new-btn:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.experience-btn {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.experience-btn:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
+
+.offer {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.offer-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0;
+    text-align: center;
+    display: flex;
+}
+
+h3.z-title {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #E7332B;
+}
+
+ p.slogan {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #514949;
+    margin-bottom: 64px;
+}
+
+.offer-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* .offer-card {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+} */
+
+.offer-card-info {
+    width: 100%;
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 24px 0;
+}
+
+.offer-card-info img {
+    margin-bottom: 48px;
+} 
+
+/* img.bgcard1-img {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+    display: block;
+    vertical-align: middle;
+    border-style: none;
+} */
+
+/* .bgcard2-img {
+    width: 90%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+    display: none;
+} */
+
+.box-curves {
+    float: right;
+    width: 40%;
+    margin-right: -49px;
+    margin-top: -58px;
+}
+
+.section-4 .card .card-body {
+    padding: 58px 48px 93px 50px;
+}
+
+.offer-card-info p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.offer-card-info h3 a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.info-card2 p {
+    margin-bottom: 40px;
+}
+
+.footer {
+    margin-top: 80px;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.footer-container h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #514949;
+}
+
+.footer-links a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.footer-links h6 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.zuri-address h6 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.zuri-address h6 a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.space {
+    margin: 16px;
+}
+
+.copyright {
+    margin: auto;
+    text-align: center;
+}
+
+.copyright h6 {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #514949;
+    padding-bottom: 60px;
+}
+/* LANDING PAGE STYLING ENDS HERE */
+
+/* TRAINING PAGE STYLING STARTS HERE */
+.training-page-cont * {
+    font-family: "Graphik Regular";
+}
+
+/* navbar styling */
+.training-page, .navbar {
+    background: rgb(255, 253, 245);
+}
+
+.navbar a:hover {
+    color: rgb(88, 87, 87);
+}
+
+.navbar-nav {
+    margin-left: 185px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px;
+    margin-right: 12px;
+    color: rgb(88, 87, 87);   
+}
+
+.thumbs {
+    background-color: #e7332b;
+    border-radius: 100px;
+    margin: -16px -50px 0 -48px;
+    padding: 10px;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+
+.enrol-now {
+    font-size: 18px;
+    background: #e7332b;
+    border-radius: 71px;
+    box-shadow: none;
+    color: #fff;
+    padding: 10px 32px;
+    text-transform: none;
+    text-decoration: none;
+    border: none;
+}
+
+/* section 1 styling */
+.section-1 {
+    margin-top: 70px;
+    background: rgb(255, 253, 245);
+}
+
+.lady1 {
+    margin-right: -65px;
+}
+
+.lady1 img {
+    width: 100%;
+    margin-right: -70px;
+    mix-blend-mode: darken;
+    margin-top: 74px;
+}
+
+.and-now {
+    color: #e7332b;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.gain-k {
+    color: #1b1a20;
+    font-family: "Graphik Medium";
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.line {
+    display: flex;
+    justify-content: right;
+    margin-left: -39px;
+    margin-bottom: 28px
+}
+
+.line img {
+    width: 30%;
+}
+
+.basic-p {
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 109px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.enrol-now2 {
+    font-size: 18px;
+    background: #e7332b;
+    border-radius: 71px;
+    box-shadow: none;
+    color: #fff;
+    padding: 10px 38px;
+    text-transform: none;
+    text-decoration: none;
+    border: none;
+}
+
+.section1wire {
+    margin: auto;
+    margin-left: 190px;
+    margin-right: 184px;
+}
+
+.s-wire1 {
+    width: 35%;
+}
+
+.maleface {
+    margin-left: -270px;
+    margin-top: -141px;
+    max-width: 1440px;
+    position: absolute;
+    width: 54px;
+}
+
+.male1 img {
+    margin-left: -26px;
+    mix-blend-mode: darken;
+    width: 100%;
+}
+/* section-1 styling ends here */
+
+/* section-2 about styling*/
+.section-2 {
+    /* margin-top: 200px; */
+    background: rgb(255, 253, 245);
+}
+
+.divider {
+    margin: 0px;
+    border: 1px thin rgba(0, 0, 0, 0.12);
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.sect2 {
+    margin-top: -16px;
+    margin-left: -16px;
+}
+
+.about-info {
+    text-transform: uppercase;
+    font-family: "Graphik Medium";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.22512px;
+    color: rgb(27, 26, 32);
+    margin: 0px;
+}
+
+.about-info2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.22512px;
+    color: rgb(27, 26, 32);
+    margin: 0px;
+    text-align: right;
+    padding: 30px 0 40px 0;
+}
+
+.read-more {
+    color: #43b97f;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.22512px;
+}
+/* section-2 about styling ends here */
+
+/* section-3 styling */
+.here-at {
+    font-family: "Graphik Medium";
+}
+
+/* section-3 styling ends here */
+
+/* section-4 cards styling */
+.cards-bg {
+    background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0))!important;
+}
+
+.card-num {
+    font-family: "Graphik Medium";
+    font-size: 60px;
+}
+
+.s4-text-big {
+    font-family: "Graphik Medium";
+    font-size: 36px;
+}
+
+.s4-text-small {
+    font-size: 18px;
+}
+/* section-4 cards styling ends here*/
+
+/* section-5 get started styling */
+.get-started-bg {
+    background-color: rgb(231, 51, 43);
+}
+
+.we-will {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.high-quality {
+    font-family: "Graphik Medium";
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+.we-give {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.enrol-now3 {
+    font-size: 18px;
+    color: #e7332b;
+    border-radius: 71px;
+    box-shadow: none;
+    background-color: #fff;
+    padding: 10px 38px;
+    text-transform: none;
+    text-decoration: none;
+    border: none;
+}
+
+.getstarted-btn {
+    font-size: 18px;
+    color: #fff;
+    border-radius: 71px;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 11px 48px 11px 15px;
+    text-transform: none;
+    text-decoration: none;
+    border: 2px solid #fff;
+    text-align: left;
+    width: 100%;
+}
+
+/* section-5 get started styling ends here */
+
+/* section-7 faq styling*/
+/* .section-7 {
+    padding: 0 332px;
+} */
+
+.sect7-wire {
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.sect7-wire-img {
+    width: 145px;
+    height: 113px;
+}
+
+.got-quest {
+    color: rgb(231, 51, 43);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faqs {
+    color: rgb(27, 26, 32);
+    font-family: "Graphik Medium";
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.accordion-container {
+    /* margin-left: 330px; */
+    border: 1px solid rgba(71, 44, 111, .43);
+}
+
+.accordion-item {
+    border: 1px solid rgba(71, 44, 111, .43);
+    background: rgb(255, 253, 245);
+}
+.accordion-button {
+    background: rgb(255, 253, 245);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    color: rgba(51, 51, 51);
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.header-que {
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.accordion-body {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.still-got-que {
+    padding: 40px 0 25px 0;
+}
+
+.still-got {
+    padding: 0 10px 7px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(51, 51, 51)
+}
+
+.tweet-us {
+    background-color: rgb(231, 51, 43);
+    color: rgb(231, 51, 43);
+    border-radius: 50px;
+}
+
+.twitterpng {
+    width: 24px;
+    height: 24px;
+    padding-right: 6px;
+    filter: invert(100%) sepia(93%) saturate(2329%) hue-rotate(193deg) brightness(139%) contrast(115%);
+}
+
+.tweet-us-text {
+    margin: 10px 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.tweet-us-text:hover {
+    background-color: #E7332B;
+    color: rgb(255, 255, 255);
+}
+/* section-7 faq styling ends here*/
+
+/* LANDING PAGE RESPONSIVE STARTS HERE */
+@media screen and (max-width: 1024px){
+    /* .nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px;
+    margin-right: 10px;
+    color: rgb(88, 87, 87);   
+    } */
+}
+
+@media screen and (max-width: 768px){
+    .landing-container {
+        height: auto;
+    }
+    .zuri-logo {
+        margin: auto;
+        display: flex;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .zuri-logo img  {
+        display: block;
+        padding-top: 40px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .home-intro h2 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .next-btn {
+        display: block;
+        margin: 50px 0 92px 0;
+    }
+    .first-btn {
+        display: block;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .new-btn {
+        background-color: #E7332B;
+        color: #fff;
+        /* margin-right: 37px; */
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    .footer-container h3 {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-links h6, .zuri-address h6 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .space {
+        margin-top: 40px;
+    }
+}
+/*  LANDING PAGE RESPONSIVE ENDS HERE */
+
+/* STYLING FOR TRAINING PAGE STARTS HERE */
+@media screen and (max-width: 1056px) {
+    .navbar-link {
+        display: flex;
+        margin-right: 70px;
+    }
+    .training-logo {
+        width: 217px;
+        height: 33.266px;
+    }   
+    .thumbs {
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+        margin: -12px 0 0 -44px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-link {
+        display: none;
+    }
+    .training-nav-content {
+        min-height: 64px;
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .training-logo {
+        width: 180px;
+    }  
+    .thumbs {
+        width: 64px;
+        height: 64px;
+        padding: 10px;
+        margin: -8px 0 0 -39px;
+    }
+    .training-nav-content {
+        margin: -10px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .training-logo {
+        width: 140px;
+    }  
+    .thumbs {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        margin: -6px 0 0 -38px;
+    }
+    .training-nav-content {
+        margin: -10px 0 0 0;
+    }
+    .enrol-now {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-link {
+        display: none;
+    }
+    .training-logo {
+        width: 140px;
+    } 
+    .thumbs {
+        width: 55px;
+        height: 55px;
+        padding: 10px;
+        margin: -9px 0 0 -33px;
+    }
+    .enrol-now {
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+}
+
+/* SECTION-2 ABOUT MEDIA QUERIES */
+/* @media screen and (max-width: 768px){
+    .sect2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-info, .about-info2 {
+        text-align: center;
+    }
+} */
+
+/* FAQ MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    .lady1 {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .still-got-que {
+        display: flex;
+        flex-direction: column;
+    } 
+    .faqs {
+        font-size: 24px;
+    }
+    .lady1 {
+        margin-right: 0;
+    }
+}

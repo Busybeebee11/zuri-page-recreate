@@ -25,7 +25,7 @@ body {
  
 .hero-bg-1 {
     height: 700px;
-    background-image: url("../img/hero-bg.svg");
+    background-image: url('https://zuri.team/img/hero-bg.svg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body {
 .first-btn {
     padding: 11px 28px;
     border: 1px solid #E7332B;
-    font-family: Averta;
+    font-family: Averta, sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -169,25 +169,23 @@ h3.z-title {
     margin-bottom: 48px;
 } 
 
-/* img.bgcard1-img {
+.bgcard1-img {
     width: 100%;
     position: absolute;
     left: -120px;
     top: -75px;
     z-index: -1;
     display: block;
-    vertical-align: middle;
     border-style: none;
-} */
+}
 
-/* .bgcard2-img {
+.bgcard2-img {
     width: 90%;
     position: absolute;
     left: -120px;
     top: -75px;
     z-index: -1;
-    display: none;
-} */
+}
 
 .offer-card-info p {
     margin-top: 0;
@@ -487,14 +485,19 @@ h3.z-title {
 
 .here-at {
     font-family: "Graphik Medium";
-    font-size: 40px;
+    font-size: 34px;
     color: rgb(27, 26, 32);
     font-weight: 700;
 }
 
 .col-5-star {
     mix-blend-mode: darken!important;
-    width: 36%;
+    width: 46%;
+}
+
+.section3wire {
+    width: 15%;
+    height: 15%;
 }
 /* section-3 styling ends here */
 
@@ -573,7 +576,7 @@ h3.z-title {
 }
 
 .we-give {
-    width: 100%;
+    width: 73%;
     font-size: 18px;
     font-weight: 400;
     color: #fff;
@@ -592,6 +595,10 @@ h3.z-title {
     border: none;
 }
 
+.enrol-now3:hover {
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+
 .getstarted-btn {
     font-size: 18px;
     color: #fff;
@@ -606,6 +613,18 @@ h3.z-title {
     width: 100%;
 }
 
+.section5wire {
+    width: 18%;
+}
+
+.dotsection5 img {
+    width: 10%;
+}
+
+.dotsection5 {
+    margin-top: -15px;
+    margin-left: -21px;
+}
 /* section-5 get started styling ends here */
 
 /* section-7 faq styling*/
@@ -718,6 +737,9 @@ h3.z-title {
 }
 
 @media screen and (max-width: 768px){
+    .section-1 {
+        margin-top: 0;
+    }
     .landing-container {
         height: auto;
     }
@@ -780,14 +802,18 @@ h3.z-title {
 /* STYLING FOR TRAINING PAGE STARTS HERE */
 @media screen and (max-width: 1200px){
     .s-wire1 {
-     width: 19%;
+     width: 20%;
     }
     .maleface {
-        margin-left: -420px;
+        margin-left: -390px;
+    margin-top: -151px;
     }
     .about-info2, .read-more {
         font-size: 17px;
-    }
+    }  
+    .col-5-star {
+    width: 36%;
+}
 }
 
 @media screen and (max-width: 1056px) {
@@ -815,6 +841,16 @@ h3.z-title {
     }
 }
 
+/* this needs adjusting remember to work on this */
+@media screen and (max-width: 1024px) {
+    .row .sect5-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 990px) {
     .navbar-link {
         display: none;
@@ -825,7 +861,46 @@ h3.z-title {
     .about-info {
         font-size: 24px;
         line-height: 28px;;
-    }     
+    }  
+    .s-wire1 {
+        width: 25%;
+    }
+    .maleface {
+        margin-left: -312px;
+        margin-top: -110px;
+    }   
+    .here-at {
+        font-size: 24px;
+    }
+    .we-will {
+        margin: 0 16px;
+    }
+    .high-quality {
+        font-size: 30px;
+        letter-spacing: 0px;
+        margin: 0 16px;
+    }
+    .we-give {
+        margin: 0px 12px;
+        width: 92%;
+    }
+    .getstarted-btn {
+        font-size: 18px;
+        width: 70%;
+    } 
+    .getstarted-btn img {
+        width: 42px;
+    }
+    .section5-btns .col-6 {
+        width: 48%;
+    }
+    .dotsection5 {
+        margin-top: -10px;
+        margin-left: 7px;
+    }
+    .enrol-now3 {
+        margin-left: 16px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -867,9 +942,40 @@ h3.z-title {
     }      
     .about-info2 {
         font-size: 18px;
-        line-height: 31px;
-        letter-spacing: 0.22512px;
+        line-height: 30px;
+        letter-spacing: -0.77488px;
         margin: 0px;
+    }
+    .here-at {
+        font-size: 24px;
+    }
+    .getstarted-btn {
+        display: flex;
+        font-size: 13px;
+        padding: 0px 48px 0px 15px;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    } 
+    .getstarted-btn img {
+        width: 30px;
+    }
+    .section5-btns .col-6 {
+        width: 48%;
+    }
+    .dotsection5 {
+        margin-top: -10px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .high-quality {
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .we-give {
+        width: 100%;
     }
 }
 
@@ -889,6 +995,12 @@ h3.z-title {
     .enrol-now {
         padding: 10px 20px;
         font-size: 18px;
+    }
+    .high-quality {
+        font-size: 28px;
+    }
+    .we-give {
+        width: 90%;
     }
 }
 

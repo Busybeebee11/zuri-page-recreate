@@ -381,10 +381,8 @@ h3.z-title {
 
 .basic-p {
     padding-bottom: 40px;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
-    word-spacing: 1px;
-    letter-spacing: 1px;
 }
 
 .enrol-now2 {
@@ -485,14 +483,14 @@ h3.z-title {
 
 .here-at {
     font-family: "Graphik Medium";
-    font-size: 34px;
+    font-size: 42px;
     color: rgb(27, 26, 32);
     font-weight: 700;
 }
 
 .col-5-star {
     mix-blend-mode: darken!important;
-    width: 46%;
+    width: 40%;
 }
 
 .section3wire {
@@ -576,7 +574,6 @@ h3.z-title {
 }
 
 .we-give {
-    width: 73%;
     font-size: 18px;
     font-weight: 400;
     color: #fff;
@@ -627,18 +624,61 @@ h3.z-title {
 }
 /* section-5 get started styling ends here */
 
+/* section-6 scope of program styling starts here */
+.sect6-box .shadow {
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%) !important;
+}
+
+.sect6-box {
+    margin-bottom: 16px;
+}
+
+.scope-of-p {
+    font-size: 24px;
+    color: #e7332b;
+    font-weight: 700;
+}
+
+.here-is {
+    font-family:'Graphik Medium';
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sect6-wire {
+    width: 35%;
+}
+
+.sect6-h4 {
+    font-family:'Graphik Medium';
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(27, 26, 31);
+    margin-bottom: 20px;
+}
+
+.s6-text-small {
+    font-family:'Graphik Regular';
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 140%;
+    padding-top: 40px;
+}
+/* section-6 scope of program styling ends here */
+
 /* section-7 faq styling*/
-/* .section-7 {
-    padding: 0 332px;
-} */
+.section-7 {
+    background: rgb(255, 253, 245);
+}
 
 .sect7-wire {
-    margin-top: 50px;
+    margin-bottom: -45px;
+    margin-left: -150px;
 }
 
 .sect7-wire-img {
     width: 145px;
-    height: 113px;
 }
 
 .got-quest {
@@ -656,7 +696,6 @@ h3.z-title {
 }
 
 .accordion-container {
-    /* margin-left: 330px; */
     border: 1px solid rgba(71, 44, 111, .43);
 }
 
@@ -733,7 +772,7 @@ h3.z-title {
 @media screen and (max-width: 1024px){
     .navbar-nav {
         margin-left: 50px;
-    } 
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -841,13 +880,27 @@ h3.z-title {
     }
 }
 
-/* this needs adjusting remember to work on this */
 @media screen and (max-width: 1024px) {
-    .row .sect5-btns {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+    .lady1 {
+        margin-right: -12px;
+    }
+    .here-at {
+        font-size: 34px;
+    }
+    .col-5-star {
+        width: 61%;
+    }
+    .section5wire {
+        margin-right: 65px;
+    }
+    .high-quality, .here-is {
+        font-size: 26px;
+    }
+    .getstarted-btn {
+        padding: 11px 8px 11px 15px;
+    }
+    .scope-of-p {
+        font-size: 20px;
     }
 }
 
@@ -869,20 +922,19 @@ h3.z-title {
         margin-left: -312px;
         margin-top: -110px;
     }   
+    .gain-k {
+        font-size: 36px;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
     .here-at {
         font-size: 24px;
     }
     .we-will {
         margin: 0 16px;
     }
-    .high-quality {
-        font-size: 30px;
-        letter-spacing: 0px;
-        margin: 0 16px;
-    }
     .we-give {
-        margin: 0px 12px;
-        width: 92%;
+        font-size: 18px;
     }
     .getstarted-btn {
         font-size: 18px;
@@ -898,8 +950,12 @@ h3.z-title {
         margin-top: -10px;
         margin-left: 7px;
     }
-    .enrol-now3 {
-        margin-left: 16px;
+    .sect6-wire {
+        margin-top: -35px;
+    }
+    .sect7-wire-img {
+        width: 130px;
+        margin-left: -100px;
     }
 }
 
@@ -922,15 +978,12 @@ h3.z-title {
         margin-left: -129px;
        }
     .basic-p {
-        font-size: 17px;
-        width: 100%;
-        letter-spacing: 0;
-        word-spacing: 2px;
+        font-size: 16px;
+        line-height: 20px;
     }
     .gain-k {
-        font-size: 28px;
-        line-height: 30px;
-        letter-spacing: 1px;
+        font-size: 24px;
+        line-height: 22px;
     }
     .sect2 {
         margin: 0;
@@ -942,7 +995,7 @@ h3.z-title {
     }      
     .about-info2 {
         font-size: 18px;
-        line-height: 30px;
+        line-height: 25px;
         letter-spacing: -0.77488px;
         margin: 0px;
     }
@@ -970,12 +1023,11 @@ h3.z-title {
 }
 
 @media screen and (max-width: 425px){
-    .high-quality {
-        font-size: 30px;
-        letter-spacing: 0px;
-    }
     .we-give {
-        width: 100%;
+        font-size: 17px;
+    }
+    .high-quality, .here-is {
+        font-size: 24px;
     }
 }
 
@@ -997,10 +1049,11 @@ h3.z-title {
         font-size: 18px;
     }
     .high-quality {
-        font-size: 28px;
+        font-size: 26px;
     }
     .we-give {
-        width: 90%;
+        width: 93%;
+        font-size: 16px;
     }
 }
 
@@ -1021,6 +1074,18 @@ h3.z-title {
         padding: 10px 22px;
         font-size: 12px;
     }
+    .about-info {
+        font-size: 17px;
+        line-height: 20px;
+        margin: 0px;
+    }
+    .sect7-wire {
+        margin-bottom: -10px;
+        margin-left: -95px;
+    }
+    .sect7-wire-img {
+        width: 80px;
+    }
 }
 
 /* FAQ MEDIA QUERIES */
@@ -1034,8 +1099,11 @@ h3.z-title {
         display: flex;
         flex-direction: column;
     } 
+    .got-quest {
+        font-size: 18px;
+    }
     .faqs {
-        font-size: 24px;
+        font-size: 22px;
     }
     .lady1 {
         margin-right: 0;

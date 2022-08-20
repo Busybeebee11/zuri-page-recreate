@@ -146,15 +146,6 @@ h3.z-title {
     margin-left: -15px;
 }
 
-/* .offer-card {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-} */
-
 .offer-card-info {
     width: 100%;
     background-color: #FFFAFA;
@@ -535,6 +526,7 @@ h3.z-title {
 .s4-box2 {
     animation: transition 0.4s ease-in-out; 
 }
+
 .card-num {
     font-family: "Graphik Medium";
     font-size: 60px;
@@ -640,7 +632,7 @@ h3.z-title {
 }
 
 .here-is {
-    font-family:'Graphik Medium';
+    font-family:"Graphik Medium";
     font-size: 40px;
     font-weight: 700;
 }
@@ -650,7 +642,7 @@ h3.z-title {
 }
 
 .sect6-h4 {
-    font-family:'Graphik Medium';
+    font-family: "Graphik Medium";
     font-size: 20px;
     font-weight: 700;
     color: rgb(27, 26, 31);
@@ -658,7 +650,6 @@ h3.z-title {
 }
 
 .s6-text-small {
-    font-family:'Graphik Regular';
     font-size: 17px;
     font-weight: 400;
     letter-spacing: .01em;
@@ -767,6 +758,156 @@ h3.z-title {
     color: rgb(255, 255, 255);
 }
 /* section-7 faq styling ends here*/
+
+/* section-8 programme structure styling starts here*/
+.structure {
+    color: #e7332b;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.prog-struct {
+    color: #1b1a20;
+    font-family: "Graphik Medium";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paths {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+}
+.section8wire {
+    margin-top: -115px;
+    margin-left: 225px;
+}
+
+.star2 {
+    margin-left: -228px;
+}
+
+.sect8-head {
+    font-family: "Graphik Medium";
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sect8-subhead {
+    font-family: "Graphik Medium";
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    padding-left: 1px;
+}
+
+.subhead-text, .subhead-text-p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.subhead-text-p {
+    margin-left: 1px!important;
+}
+
+.hour-img {
+    width: 22%;
+    margin-left: 358px;
+    margin-top: -160px;
+}
+
+.time-img {
+    width: 37%;
+    margin-left: 289px;
+    margin-top: -145px;
+}
+
+.section-8 .shadow {
+    box-shadow: 0 31px 60px rgba(231,51,43,.2)!important;
+}
+
+.circle-img {
+    width: 10%;
+    margin-top: 140px;
+}
+
+.circle1-img {
+    width: 13%;
+    margin: -45px 30px 0px 0px;
+}
+/* section-8 programme structure styling ends here*/
+
+/* section-9 styling starts here */
+.section-9 {
+    margin-top: 20px;
+}
+
+.get-started-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.break-into {
+    font-family: "Graphik Medium"!important;
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.round-img {
+    margin-top: 50px;
+}
+
+.curve2-img {
+    margin-top: 318px;
+    margin-left: -15px;
+    width: 40%;
+}
+
+.bend1 {
+    width: 50%;
+    margin-right: -15px;
+}
+
+.mains-img {
+    width: 50%;
+    margin-top: 328px;
+    margin-right: -141px;
+}
+
+.enrol4 {
+    margin: 20px 0px 130px 0px;
+}
+
+.enrol-now4 {
+    font-size: 18px;
+    color: #e7332b;
+    border-radius: 71px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+    background-color: #fff;
+    padding: 10px 38px;
+    text-transform: none;
+    border: none;
+    text-decoration: none;
+}
+/* section-9 styling ends here */
+
+/* footer styling starts here */
+.page-footer {
+    margin-top: 80px;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1b1a20;
+}
+/* footer styling ends here */
+
 
 /* LANDING PAGE RESPONSIVE STARTS HERE */
 @media screen and (max-width: 1024px){

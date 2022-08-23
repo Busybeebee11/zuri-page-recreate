@@ -2,7 +2,6 @@
 
 @font-face {font-family: "Graphik Medium"; src: url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.eot"); src: url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.woff") format("woff"), url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a72ac9a3e9f75a5385a7a4f88baf5bd0.svg#Graphik Medium") format("svg"); }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -779,11 +778,13 @@ h3.z-title {
     font-weight: 400;
 }
 .section8wire {
+    width: 10%;
     margin-top: -115px;
     margin-left: 225px;
 }
 
 .star2 {
+    width: 11%;
     margin-left: -228px;
 }
 
@@ -838,6 +839,12 @@ h3.z-title {
     width: 13%;
     margin: -45px 30px 0px 0px;
 }
+
+.mod-p {
+    color: #585757!important;
+    font-size: 17px;
+    font-weight: 400;
+}
 /* section-8 programme structure styling ends here*/
 
 /* section-9 styling starts here */
@@ -860,6 +867,7 @@ h3.z-title {
 
 .round-img {
     margin-top: 50px;
+    width: 50%
 }
 
 .curve2-img {
@@ -1043,6 +1051,27 @@ h3.z-title {
     .scope-of-p {
         font-size: 20px;
     }
+    .hour-img {
+        margin-left: 303px;
+        margin-top: -167px;
+    }
+    .time-img {
+        margin-left: 247px;
+        margin-top: -103px;
+    }
+    .circle1-img {
+        margin: -45px -41px 0px 0px;
+    }
+    .circle-img {
+        margin-top: 80px;
+    }
+    .curve2-img {
+        margin-top: 418px;
+    }
+    .mains-img {
+        margin-top: 425px;
+        margin-right: -97px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -1098,9 +1127,53 @@ h3.z-title {
         width: 130px;
         margin-left: -100px;
     }
+    .structure {
+        font-size: 18px;
+    }
+    .prog-struct {
+        font-size: 24px;
+    }
+    .section8wire {
+        width: 19%;
+        margin-top: -80px;
+        margin-left: 70px;
+    }
+    .star2 {
+        width: 13%;
+        margin-left: -205px;
+    }
+    .hour-img {
+        width: 17%;
+        margin-left: 518px;
+        margin-top: -162px;
+    }
+    .time-img {
+        width: 32%;
+        margin-left: 425px;
+        margin-top: -140px;
+    }
+    .circle1-img {
+        margin: -90px -27px 0px 0px;
+    }
+    .break-into {
+        font-size: 44px;
+    }
+    .enrol4 {
+        margin: 20px 0px 75px 0px;
+    }
+    .curve2-img {
+        margin-top: 320px;
+        margin-left: -14px;
+        width: 80%;
+    }
+    .mains-img {
+        width: 100%;
+        margin-top: 330px;
+        margin-right: -67px;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 376px) and (max-width: 600px) {
     .training-logo {
         width: 180px;
     }  
@@ -1161,15 +1234,81 @@ h3.z-title {
         margin-top: -10px;
         margin-left: 7px;
     }
-}
-
-@media screen and (max-width: 425px){
     .we-give {
         font-size: 17px;
     }
     .high-quality, .here-is {
         font-size: 24px;
     }
+    .paths {
+        font-size: 15px;
+    }
+    .move {
+        display: none;
+    }
+    .structure {
+        font-size: 18px;
+    }
+    .prog-struct {
+        font-size: 24px;
+    }
+    .section8wire {
+        width: 21%;
+        margin-top: -10px;
+        margin-left: 45px;
+    }
+    .star2 {
+        width: 14%;
+        margin-left: -135px;
+        margin-top: -19px;
+    }
+    .hour-img {
+        width: 35%;
+        margin-left: 212px;
+        margin-top: -156px;
+    }
+    .time-img {
+        width: 50%;
+        margin-left: 169px;
+        margin-top: -94px;
+    }
+    .circle1-img {
+        margin: -99px -18px 0px 0px;
+        width: 35%;
+    }
+    .circle-img {
+        display: none;
+    }
+    .break-into {
+        font-size: 22px;
+    }
+    .round-img {
+        margin-top: 32px;
+        width: 100%;
+    }
+    .enrol4 {
+        margin: 20px 0px 30px 0px;
+    }
+    .enrol-now4 {
+        font-size: 15px;
+        padding: 12px 38px;
+        border-radius: 30px;
+    }
+    .bend1 {
+        width: 100%;
+        margin-right: -14px;
+    }
+    .curve2-img {
+        margin-top: 243px;
+        margin-left: -13px;
+        width: 100%;
+    }
+    .mains-img {
+        width: 100%;
+        margin-top: 259px;
+        margin-right: -61px;
+    }
+    
 }
 
 @media screen and (max-width: 375px){

@@ -422,8 +422,8 @@
             <div class="container">
                 <div class="row section-8 prog-structure mt-5">
                     <div class="d-block">
-                        <img class="section8wire" src="./img/section8wire.svg" style="width: 10%">
-                        <img class="star2" src="./img/Star2.svg" style="width: 10%">
+                        <img class="section8wire" src="./img/section8wire.svg">
+                        <img class="star2" src="./img/Star2.svg">
                     </div>
 
                     <div class="">
@@ -431,9 +431,9 @@
                         <h1 class="prog-struct text-center mb-3">Program Structure</h1>
                         <p class="paths text-center mb-5">There are 2 broad paths in this program based on your availability.</p>
                     </div>
-                    <img src="./img/move.svg" style="width: 10%">
+                    <img src="./img/move.svg" style="width: 10%" class="move d-sm-none d-xl-block">
 
-                    <div class="col-xl-5 col-xs-12">
+                    <div class="col-xl-5 col-lg-6 col-xs-12 mb-5">
                         <div class="card h-100 rounded-5 shadow p-4" style="background: #1b1a20;">
                             <div class="card-body">
                                 <h1 class="sect8-head">Full-time</h1>
@@ -448,11 +448,18 @@
                                 </ul>
                                 <ul class="sect8-subhead">Post Program:
                                     <li class="subhead-text">Certification of Attendance</li>
-                                    <li class="subhead-text">Zuri Internship <img src="./img/clarity.svg" style="width: 17px"></li>
-                                    <li class="subhead-text">Laptop Reward (upgrade or new one) <img src="./img/clarity.svg" style="width: 17px"></li>
-                                    <li class="subhead-text">Job Placement <img src="./img/clarity.svg" style="width: 17px"></li>
+                                    <li><a class="subhead-text" href="">Zuri Internship</a>
+                                        <img src="./img/clarity.svg" style="width: 17px" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    </li>
+                                    <li class="subhead-text">Laptop Reward (upgrade or new one)
+                                        <img src="./img/clarity.svg" style="width: 17px" data-bs-toggle="modal" data-bs-target="#exampleModal2"> 
+                                    </li>
+                                    <li class="subhead-text">Job Placement 
+                                        <img src="./img/clarity.svg" style="width: 17px" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                    </li>
                                     <li class="subhead-text">Zuri Talent Pool</li>
-                                    <li class="subhead-text">More Training: <img src="./img/clarity.svg" style="width: 17px"> <br>
+                                    <li class="subhead-text">More Training: 
+                                        <img src="./img/clarity.svg" style="width: 17px" data-bs-toggle="modal" data-bs-target="#exampleModal4"> <br>
                                         Interview Prep<br> Algorithm & Data Structure <br>Freelance Setup & Training <br> LinkedIn Optimization <br>CV Review
                                     </li>
                                 </ul> 
@@ -460,7 +467,7 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="col-xl-5 col-xs-12">
+                    <div class="col-xl-5 col-lg-6 col-xs-12 mb-5">
                         <div class="card h-100 rounded-5 shadow p-4" style="background: #1b1a20;">
                             <div class="card-body p-4">
                                 <h1 class="sect8-head">Part-time</h1>
@@ -487,12 +494,77 @@
                 </div>
 
                 <div class="">
-                        <img class="circle-img" src="./img/circle.png" alt="">
+                    <img class="circle-img d-sm-none d-lg-block" src="./img/circle.png" alt="">
+                </div>
+
+                <!-- Modal 1-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content p-5 border border-2 border-primary">
+                            <div class="modal-header border-0">
+                                <h5 class="modal-title" id="exampleModalLabel">Zuri Internship Is Optional</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="mod-p">What do we mean by this?</p>
+                                <p class="mod-p">The Zuri Internship is another level of training that places the participants in a work simulation. It is not paid work; it’s a short training program to get participants ready for actual jobs. There will be cash rewards for a job well done.</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+
+                
+                <!-- Modal 2-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content p-5 border border-2 border-primary">
+                            <div class="modal-header">
+                                <h6 class="modal-title" id="exampleModalLabel2">Laptop Reward (Upgrade Or New One)</h6>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="mod-p">What do we mean by this?</p>
+                                <p class="mod-p">We will be working with our partners on how to get laptops for exceptional participants who genuinely need a better device. This is not for everyone, and we will only do this if we can get partners to fund / or donate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 3-->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content p-5 border border-2 border-primary">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel3">Job Reward:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="mod-p">What do we mean by this?</p>
+                                <p class="mod-p">This is a beginner-focused program; we will not be exclusively recommending everyone for jobs or job placement. We will not be placing everyone in our talent pool. We will select very few who are exceptional, smart and able to out-perform their pairs and recommend them for possible employment or further internships. You might still have to go through other forms of interview depending on the employer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 4-->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content p-5 border border-2 border-primary">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel4">More Training</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="mod-p">What do we mean by this?</p>
+                                <p class="mod-p">We will be partnering with more companies to provide more training to participants in this track. However, this is subject to the partners. If we cannot get partners in any of the items listed below, we will not be doing the training.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row section-9 rounded-5 mx-3 mb-5" style="background-color: rgb(231, 51, 43);">
                     <div class="col-3">
-                        <img class="round-img float-end w-50" src="./img/round.svg">
+                        <img class="round-img float-end" src="./img/round.svg">
                         <img class="curve2-img d-flex" src="./img/curve2.svg">
                     </div>
                     <div class="col-6">
@@ -511,10 +583,10 @@
 
                 <footer class="page-footer">
                     <div class="row">
-                        <div class="col-6 text-start mb-4">
+                        <div class="col-sm-12 col-lg-6 d-flex justify-content-center justify-content-lg-start mb-4">
                             <img src="./img/logo.svg">
                         </div>
-                        <div class="col-6 d-flex justify-content-end">
+                        <div class="col-sm-12 col-lg-6 d-flex justify-content-center justify-content-lg-end mb-4">
                             <a href="https://www.facebook.com/thezuriteam/" target="_blank">
                                 <img src="./img/facebookred.svg" class="pe-2">
                             </a>
@@ -528,12 +600,12 @@
                                 <img src="./img/youtubered.svg" class="pe-2">
                             </a> 
                         </div>
-                        <div class="col-6 mb-4">
+                        <div class="col-sm-12 col-lg-6 d-flex justify-content-center justify-content-lg-start mb-4">
                             <div class="footer-copyright text-start">
                                 © 2022 Zuri Training
                             </div>
                         </div>
-                        <div class="col-6 d-flex justify-content-end">
+                        <div class="col-sm-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
                             <a class="text-decoration-none pe-3 footer-text" href="https://training.zuri.team/privacy">Privacy Policy</a>
                             <a class="text-decoration-none footer-text" href="https://ingressive.org/">Ingressive For Good</a>
                         </div>

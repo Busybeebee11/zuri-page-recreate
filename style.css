@@ -601,6 +601,10 @@ h3.z-title {
     width: 100%;
 }
 
+.sect5-btn-icon {
+    width: 28%;
+}
+
 .section5wire {
     width: 18%;
 }
@@ -655,6 +659,38 @@ h3.z-title {
     line-height: 140%;
     padding-top: 40px;
 }
+
+.s6img-html-css {
+    width: 35px;
+}
+
+.s6img-js {
+    width: 46px;
+}
+
+.s6img-php {
+    width: 62px
+}
+
+.s6img-python-adobe {
+    width: 50px;
+}
+
+.s6img-figma {
+    width: 97px;
+}
+
+.s6img-ubuntu {
+    width: 100px;
+}
+
+.s6img-bash-django-react {
+    width: 75px;
+}
+
+.s6img-aws-laravel {
+    width: 60px;
+}
 /* section-6 scope of program styling ends here */
 
 /* section-7 faq styling*/
@@ -708,6 +744,7 @@ h3.z-title {
 }
 
 .header-que {
+    font-family: "Graphik Medium";
     color: rgb(51, 51, 51);
     font-size: 18px;
     font-weight: 600;
@@ -918,12 +955,6 @@ h3.z-title {
 
 
 /* LANDING PAGE RESPONSIVE STARTS HERE */
-@media screen and (max-width: 1024px){
-    .navbar-nav {
-        margin-left: 50px;
-    }
-}
-
 @media screen and (max-width: 768px){
     .section-1 {
         margin-top: 0;
@@ -985,30 +1016,14 @@ h3.z-title {
         margin-top: 40px;
     }
 }
-/*  LANDING PAGE RESPONSIVE ENDS HERE */
+/* LANDING PAGE RESPONSIVE ENDS HERE */
 
 /* STYLING FOR TRAINING PAGE STARTS HERE */
-@media screen and (max-width: 1200px){
-    .s-wire1 {
-     width: 20%;
-    }
-    .maleface {
-        margin-left: -390px;
-    margin-top: -151px;
-    }
-    .about-info2, .read-more {
-        font-size: 17px;
-    }  
-    .col-5-star {
-    width: 36%;
-}
-}
-
-@media screen and (max-width: 1056px) {
-    .navbar-link {
-        display: flex;
-        margin-right: 70px;
-    }
+@media screen and (max-width: 1024px) {
+    /* nav-bar */
+    .navbar-nav {
+        margin-left: 65px;
+    }    
     .training-logo {
         width: 217px;
         height: 33.266px;
@@ -1019,6 +1034,16 @@ h3.z-title {
         padding: 10px;
         margin: -12px 0 0 -44px;
     }
+    /* section-1 */
+    .lady1 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    } 
+    .lady1 img {
+        width: 80%;
+        margin: 0;
+    }
     .about-info {
         font-size: 20px;
         margin: 0;
@@ -1027,64 +1052,130 @@ h3.z-title {
         font-size: 17px;
         margin: 0;
     }
-}
-
-@media screen and (max-width: 1024px) {
-    .lady1 {
-        margin-right: -12px;
+    .s-wire1 {
+     width: 20%;
+    }
+    .maleface {
+        margin-left: -390px;
+        margin-top: -151px;
+    }
+    /* section-2 */
+    .ingressive-img {
+        width: 90%;
+    }
+    .about-info2, .read-more {
+        font-size: 18px;
+    }  
+    /* section-3 */
+    .why-zuri {
+        font-size: 20px;
     }
     .here-at {
         font-size: 34px;
     }
     .col-5-star {
-        width: 61%;
+        width: 57%;
     }
+    .section-4.section-4 .card .card-body {
+        padding-bottom: 40px;
+    }
+    /* section-5 */
     .section5wire {
-        margin-right: 65px;
+        margin-right: 60px;
     }
-    .high-quality, .here-is {
-        font-size: 26px;
+    .high-quality {
+        font-size: 30px;
     }
     .getstarted-btn {
-        padding: 11px 8px 11px 15px;
+        padding: 12px 20px 12px 10px;
     }
+    .dotsection5 {
+        margin: 0;
+    }
+    .dotsection5 img {
+        width: 12%;
+        margin-left: -11px;
+    }
+    /* section-6 */
     .scope-of-p {
         font-size: 20px;
     }
+    .here-is {
+        font-size: 30px;
+    }
+    .sect7-wire-img {
+        margin-left: -190px;
+    }
+    .got-quest {
+        font-size: 20px;
+    }
+    .faqs {
+        font-size: 30px;
+    }
+    /* section-8 */
+    .structure {
+        font-size: 19px;
+        margin-top: -45px;
+    }
+    .prog-struct {
+        font-size: 29px;
+    }
+    .section8wire {
+        width: 12%;
+        margin-top: -80px;
+        margin-left: 89px;
+    }
+    .star2 {
+        width: 10%;
+        margin-left: -205px;
+    }
     .hour-img {
-        margin-left: 303px;
-        margin-top: -167px;
+        margin-left: 284px;
     }
     .time-img {
-        margin-left: 247px;
-        margin-top: -103px;
+        margin-left: 246px;
     }
     .circle1-img {
-        margin: -45px -41px 0px 0px;
+        width: 14%;
+        margin: -94px -42px 0px 0px;
     }
+    /* section-9 */
     .circle-img {
-        margin-top: 80px;
+        margin-top: 55px;
+    }
+    .round-img {
+        width: 60%;
+    }
+    .break-into {
+        font-size: 46px;
+    }
+    .enrol4 {
+        margin: 26px 0px 80px 0px;
     }
     .curve2-img {
-        margin-top: 418px;
+        margin-top: 301px;
+        margin-left: -14px;
+        width: 43%;
     }
     .mains-img {
-        margin-top: 425px;
-        margin-right: -97px;
+        width: 70%;
+        margin-top: 285px;
+        margin-right: -96px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (max-width: 768px) {
     .navbar-link {
         display: none;
     }
     .training-nav-content {
         min-height: 64px;
-    } 
+    }
     .about-info {
         font-size: 24px;
         line-height: 28px;;
-    }  
+    } 
+    /* section-1 */
     .s-wire1 {
         width: 25%;
     }
@@ -1097,9 +1188,11 @@ h3.z-title {
         line-height: 1;
         letter-spacing: 1px;
     }
+    /* section-2 */
     .here-at {
         font-size: 24px;
     }
+    /* section-5 */
     .we-will {
         margin: 0 16px;
     }
@@ -1120,13 +1213,16 @@ h3.z-title {
         margin-top: -10px;
         margin-left: 7px;
     }
+    /* section-6 */
     .sect6-wire {
-        margin-top: -35px;
+        margin-top: -20px;
     }
+    /* section-7 */
     .sect7-wire-img {
         width: 130px;
         margin-left: -100px;
     }
+     /* section-8 */
     .structure {
         font-size: 18px;
     }
@@ -1152,6 +1248,7 @@ h3.z-title {
         margin-left: 425px;
         margin-top: -140px;
     }
+    /* section-9 */
     .circle1-img {
         margin: -90px -27px 0px 0px;
     }
@@ -1173,7 +1270,7 @@ h3.z-title {
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 600px) {
+@media screen and (min-width: 425px) and (max-width: 567px) {
     .training-logo {
         width: 180px;
     }  
@@ -1185,6 +1282,12 @@ h3.z-title {
     }
     .training-nav-content {
         margin: -10px 0 0 0;
+    }
+    /* section-1 */
+    .lady1 {
+        display: flex;
+        margin: auto;
+        width: 100%!important;
     }
     .s-wire1 {
         width: 47px;
@@ -1199,6 +1302,7 @@ h3.z-title {
         font-size: 24px;
         line-height: 22px;
     }
+    /* section-2 */
     .sect2 {
         margin: 0;
     }
@@ -1206,16 +1310,21 @@ h3.z-title {
         font-size: 20px;
         line-height: 28px;
         margin: 0px;
-    }      
+    } 
+    .ingressive-img {
+        width: 75%;
+    } 
     .about-info2 {
-        font-size: 18px;
+        font-size: 19px;
         line-height: 25px;
         letter-spacing: -0.77488px;
         margin: 0px;
     }
+    /* section-3 */
     .here-at {
         font-size: 24px;
     }
+    /* section-5 */
     .getstarted-btn {
         display: flex;
         font-size: 13px;
@@ -1240,6 +1349,26 @@ h3.z-title {
     .high-quality, .here-is {
         font-size: 24px;
     }
+    /* section-7 */ 
+    .sect7-wire {
+        margin-bottom: -22px;
+        margin-left: -70px;
+    }
+    .sect7-wire-img {
+        width: 100px;
+        margin-left: -90px;
+    }
+    .got-quest {
+        font-size: 18px;
+    }
+    .faqs {
+        font-size: 22px;
+    }
+    .still-got-que {
+        display: flex;
+        flex-direction: column;
+    }
+    /* section-8 */
     .paths {
         font-size: 15px;
     }
@@ -1276,6 +1405,214 @@ h3.z-title {
         margin: -99px -18px 0px 0px;
         width: 35%;
     }
+    /* section-9 */
+    .circle-img {
+        display: none;
+    }
+    .break-into {
+        font-size: 22px;
+    }
+    .round-img {
+        margin-top: 32px;
+        width: 100%;
+    }
+    .enrol4 {
+        margin: 20px 0px 30px 0px;
+    }
+    .enrol-now4 {
+        font-size: 15px;
+        padding: 12px 38px;
+        border-radius: 30px;
+    }
+    .bend1 {
+        width: 100%;
+        margin-right: -14px;
+    }
+    .curve2-img {
+        margin-top: 243px;
+        margin-left: -13px;
+        width: 100%;
+    }
+    .mains-img {
+        width: 100%;
+        margin-top: 188px;
+        margin-right: -17px;
+    }
+    /* footer */
+    /* need to work on footer from this size */
+}
+
+@media screen and (max-width: 424px) {
+    .training-logo {
+        width: 140px;
+    }  
+    .thumbs {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        margin: -6px 0 0 -38px;
+    }
+    .training-nav-content {
+        margin: -10px 0 0 0;
+    }
+    .enrol-now {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    /* section-1 */
+    .lady1 {
+        margin: 20px 0 0 0;
+    }
+    .lady1 img {
+        margin: 0;
+        width: 100%;
+    }
+    .s-wire1 {
+        width: 47px;
+        display: block;
+        margin-left: -129px;
+       }
+    .basic-p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .gain-k {
+        font-size: 24px;
+        line-height: 22px;
+    }
+    /* section-2 */
+    .sect2 {
+        margin: 0;
+    }
+    .about-info {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0px;
+    }    
+    .about-info2 {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.77488px;
+        margin: 0px;
+    }
+    /* section-3 */
+    .why-zuri {
+        font-size: 18px;
+    }
+    .here-at {
+        font-size: 24px;
+    }
+    /* section-4 */
+    .card-num {
+        font-size: 40px;
+    }
+    .section-4 .card .card-body {
+        padding: 58px 48px 30px 50px;
+    }
+    .s4-text-big {
+        font-size: 28px;
+        line-height: 40px;
+        padding: 0;
+    }
+    /* section-5 */
+    .getstarted-btn {
+        display: flex;
+        font-size: 13px;
+        width: 93%;
+        padding: 14px;
+    } 
+    .getstarted-btn img {
+        width: 30px;
+    }
+    .section5-btns .col-6 {
+        width: 48%;
+    }
+    .dotsection5 {
+        margin-top: -10px;
+        margin-left: 7px;
+    }
+    /* section-6 */
+    .we-give {
+        font-size: 17px;
+    }
+    .high-quality, .here-is {
+        font-size: 28px;
+    }
+    .scope-of-p {
+        font-size: 17px;
+    }
+    .sect6-wire {
+        width: 35%;
+    }
+    /* section-7 */
+    .sect7-wire {
+        margin-bottom: -10px;
+        margin-left: -95px;
+    }
+    .sect7-wire-img {
+        width: 66px;
+        margin-left: 0;
+    }
+    .got-quest {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .faqs {
+        font-size: 25px;
+    }
+    .header-que {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .still-got-que {
+        display: flex;
+        flex-direction: column;
+    } 
+    .still-got {
+        font-size: 16px;
+    }
+    .tweet-us-text {
+        margin: 7px 15px;
+        font-size: 16px;
+    }
+    /* section-8 */
+    .paths {
+        font-size: 15px;
+    }
+    .move {
+        display: none;
+    }
+    .structure {
+        font-size: 18px;
+    }
+    .prog-struct {
+        font-size: 24px;
+    }
+    .section8wire {
+        width: 21%;
+        margin-top: -10px;
+        margin-left: 45px;
+    }
+    .star2 {
+        width: 14%;
+        margin-left: -135px;
+        margin-top: -19px;
+    }
+    .hour-img {
+        width: 35%;
+        margin-left: 190px;
+        margin-top: -156px;
+    }
+    .time-img {
+        width: 50%;
+        margin-left: 155px;
+        margin-top: -94px;
+    }
+    /* section-9 */
+    .circle1-img {
+        margin: -99px -18px 0px 0px;
+        width: 35%;
+    }
     .circle-img {
         display: none;
     }
@@ -1308,33 +1645,6 @@ h3.z-title {
         margin-top: 259px;
         margin-right: -61px;
     }
-    
-}
-
-@media screen and (max-width: 375px){
-    .training-logo {
-        width: 140px;
-    }  
-    .thumbs {
-        width: 60px;
-        height: 60px;
-        padding: 10px;
-        margin: -6px 0 0 -38px;
-    }
-    .training-nav-content {
-        margin: -10px 0 0 0;
-    }
-    .enrol-now {
-        padding: 10px 20px;
-        font-size: 18px;
-    }
-    .high-quality {
-        font-size: 26px;
-    }
-    .we-give {
-        width: 93%;
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 320px) {
@@ -1342,50 +1652,163 @@ h3.z-title {
         display: none;
     }
     .training-logo {
-        width: 140px;
+        width: 130px;
     } 
     .thumbs {
         width: 55px;
         height: 55px;
         padding: 10px;
-        margin: -9px 0 0 -33px;
+        margin: -9px 0 0 -29px
     }
     .enrol-now {
-        padding: 10px 22px;
-        font-size: 12px;
+        font-size: 14px;
+        padding: 10px 13px 10px 26px;
     }
+    /* section-1 */
+    .gain-k {
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
+    .basic-p {
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .enrol-now2, .enrol-now3, .enrol-now4 {
+        font-size: 17px;
+        padding: 11px 25px;
+    }
+    /* section-2 */
     .about-info {
         font-size: 17px;
         line-height: 20px;
         margin: 0px;
+    } 
+    .about-info2, .read-more {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0;
     }
-    .sect7-wire {
-        margin-bottom: -10px;
-        margin-left: -95px;
+    /* section-4 */
+    .getstarted-btn img {
+        width: 27px;
     }
-    .sect7-wire-img {
-        width: 80px;
+    .getstarted-btn {
+        font-size: 12px;
+        padding: 14px 6px 14px 10px;
+        width: 100%;
+    }
+    .dotsection5 img {
+        width: 15%;
+        margin-left: 10px;
+    }
+    /* section-6 */
+    .section-6-cards {
+        margin: 0;
+    }
+    .s6img-html-css {
+        width: 30px;
+    }
+    .s6img-js {
+        width: 40px;
+    }
+    .s6img-php {
+        width: 52px
+    }
+    .s6img-python-adobe {
+        width: 40px;
+    }
+    .s6img-figma {
+        width: 87px;
+    }
+    .s6img-ubuntu {
+        width: 79px;
+    }
+    .s6img-bash-django-react {
+        width: 65px;
+    }
+    .s6img-aws-laravel {
+        width: 55px;
+    }
+    /* section-8 */
+    .card-body {
+        padding: 0;
+    }
+    /* section-9 */
+    .circle1-img {
+        width: 33%;
+        margin: -97px -15px 0px 0px;
+    }
+    .section8wire {
+        width: 21%;
+        margin-top: -10px;
+        margin-left: 45px;
+    }
+    .star2 {
+        width: 12%;
+        margin-left: -92px;
+        margin-top: -47px;
+    }
+    .move {
+        display: none;
+    }
+    .section-9 {
+        margin: 0;
+    }
+    .sect9 {
+        padding: 0 2px;
+    }
+    .round-img {
+        margin-top: 19px;
+        width: 86%;
+    }
+    .bend1 {
+        width: 100%;
+        margin-right: -4px;
+    }
+    .enrol4 {
+        margin: 20px 0px 25px 0px;
+    }
+    .hour-img {
+        width: 28%;
+        margin-left: 179px;
+        margin-top: -145px;
+    }
+    .time-img {
+        width: 45%;
+        margin-left: 135px;
+        margin-top: -112px;
+    }
+    .curve2-img {
+        margin-top: 266px;
+        margin-left: -3px;
+        width: 100%;
+    }
+    .mains-img {
+        width: 100%;
+        margin-top: 220px;
+        margin-right: -4px;
+    }
+    .logo-img {
+        width: 100%;
     }
 }
 
-/* FAQ MEDIA QUERIES */
-@media screen and (max-width: 768px) {
-    .lady1 {
-        margin-right: 0;
-    }
-}
-@media screen and (max-width: 425px) {
-    .still-got-que {
-        display: flex;
-        flex-direction: column;
-    } 
-    .got-quest {
-        font-size: 18px;
-    }
-    .faqs {
-        font-size: 22px;
-    }
-    .lady1 {
-        margin-right: 0;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
